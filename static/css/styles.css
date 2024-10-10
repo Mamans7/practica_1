@@ -1,0 +1,12 @@
+.navbar-brand {
+    display: flex;
+    align-items: left;
+    height: 40px;
+    width: 50px;
+    padding: 5px;
+    margin-right: 70px;
+}
+
+body {
+    background-color: beige;
+}
