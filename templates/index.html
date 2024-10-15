@@ -2,33 +2,33 @@
 
 <div class="container p-4 mt-3 mb-3" style="background-color: #eee;">
     <div class="row">
-        <div class="col-12 col-md-4">
-            <h3>Venta de libros.</h3>
+        <div class="col-12 col-md-6 mb-1">
+            <h2>Venta de libros.</h2>
             <p>Una puerta hacia el conocimiento, la cultura y la creatividad. A través de ella, se conectan autores con lectores, compartiendo ideas, historias y aprendizajes que enriquecen la vida de las personas. Cada libro vendido es una oportunidad para
                 que alguien explore nuevos mundos, desarrolle habilidades y amplíe su perspectiva. Además, fomenta el hábito de la lectura y apoya la industria literaria, incentivando la creación de más obras que inspiran y educan. ¡Es un puente hacia
                 el crecimiento personal y colectivo!</p>
             <a class="btn btn-primary" href="{{ url_for( 'servicios') }} ">Ver Libros</a>
         </div>
-        <div class="col-12 col-md-8 mt-2 carousel slide " data-ride="carousel">
+        <div class="col-12 col-md-6 mt-2 carousel slide " data-ride="carousel">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{ url_for('static', filename='img/tapa_primero.png') }}" alt="Tapa de primero" />
+                        <img src="{{ url_for('static', filename='img/tapa_primero.png') }}" alt="Tapa de primero" class="img-fluid" />
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ url_for('static', filename='img/tapa_segundo.png') }}" alt="Tapa de segundo" />
+                        <img src="{{ url_for('static', filename='img/tapa_segundo.png') }}" alt="Tapa de segundo" class="img-fluid" />
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ url_for('static', filename='img/tapa_tercero.png') }}" alt="Tapa de tercero" />
+                        <img src="{{ url_for('static', filename='img/tapa_tercero.png') }}" alt="Tapa de tercero" class="img-fluid" />
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ url_for('static', filename='img/tapa_cuarto.png') }}" alt="Tapa de cuarto" />
+                        <img src="{{ url_for('static', filename='img/tapa_cuarto.png') }}" alt="Tapa de cuarto" class="img-fluid" />
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ url_for('static', filename='img/tapa_quinto.png') }}" alt="Tapa de quinto" />
+                        <img src="{{ url_for('static', filename='img/tapa_quinto.png') }}" alt="Tapa de quinto" class="img-fluid" />
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ url_for('static', filename='img/tapa_sexto.png') }}" alt="Tapa de sexto" />
+                        <img src="{{ url_for('static', filename='img/tapa_sexto.png') }}" alt="Tapa de sexto" class="img-fluid" />
                     </div>
                 </div>
                 <!-- Controles del carrusel -->
