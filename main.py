@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, url_for
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/index')
 def home():
   return render_template('index.html')
 
@@ -13,9 +13,9 @@ def quienes():
 def servicios():
   return render_template('servicios.html')
 
-# @app.noticias('/noticias')
-# def noticias():
-#   return render_template('noticias.html')
+@app.route('/noticias')
+def noticias():
+  return render_template('noticias.html')
 
 @app.route('/contactos')
 def contactos():
