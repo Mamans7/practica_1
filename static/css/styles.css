@@ -10,3 +10,25 @@
 body {
     background-color: beige;
 }
+
+.icon-container i {
+    color: #110805;
+    /* Color inicial */
+    transition: color 0.3s;
+    /* Transición suave */
+}
+
+.icon-container i:hover {
+    color: #2284ec;
+    /* Cambia a este color al pasar el mouse */
+}
+
+.img {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 20px;
+}
+
+.tex {
+    color: #a22110;
+}

@@ -2,14 +2,14 @@
 
 <div class="container p-4 mt-3 mb-3" style="background-color: #eee;">
     <div class="row">
-        <div class="col-12 col-md-6 mb-1">
+        <div class="col-12 col-md-6 align-self-end">
             <h2>Venta de libros.</h2>
             <p>Una puerta hacia el conocimiento, la cultura y la creatividad. A través de ella, se conectan autores con lectores, compartiendo ideas, historias y aprendizajes que enriquecen la vida de las personas. Cada libro vendido es una oportunidad para
                 que alguien explore nuevos mundos, desarrolle habilidades y amplíe su perspectiva. Además, fomenta el hábito de la lectura y apoya la industria literaria, incentivando la creación de más obras que inspiran y educan. ¡Es un puente hacia
                 el crecimiento personal y colectivo!</p>
-            <a class="btn btn-primary" href="{{ url_for( 'servicios') }} ">Ver Libros</a>
+            <a class="btn btn-danger col-md-6 offset-md-3 mb-3" href="{{ url_for( 'servicios') }} ">Ver Libros</a>
         </div>
-        <div class="col-12 col-md-6 mt-2 carousel slide " data-ride="carousel">
+        <div class="col-12 col-md-6 carousel-slide" data-ride="carousel">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -43,6 +43,24 @@
             </div>
         </div>
 
+    </div>
+</div>
+<h3 class="text-center mt-3 mb-3 tex p-2">Testimonios</h3>
+<div class="container row text-bg-light p-4">
+    <div class=" col-12 col-md-3">
+        <img src="{{ url_for('static', filename='img/ana.png') }}" class="img m-2" alt="...">
+    </div>
+    <div class="row  col-12 col-md-3 mt-3">
+        <h5>Ana G.</h5>
+        <p>"Nunca había considerado la compra de libros en línea hasta que descubrí cómo comparar precios y leer reseñas. Ahora, cada vez que necesito un libro, busco primero en línea. He aprendido a apreciar las ofertas y a elegir cuidadosamente, lo que
+            me ha ahorrado mucho dinero."</p>
+    </div>
+    <div class=" col-12 col-md-3">
+        <img src="{{ url_for('static', filename='img/laura.png') }}" class="img m-2" alt="...">
+    </div>
+    <div class="row  col-12 col-md-3 mt-3">
+        <h5>Laura P.</h5>
+        <p>"Mi experiencia al aprender a comprar libros ha sido transformadora. Antes, compraba sin pensar, pero ahora, investigo los autores y busco recomendaciones. Esto ha enriquecido mi biblioteca y, sobre todo, mi vida."</p>
     </div>
 </div>
 
